@@ -1,0 +1,25 @@
+/* To create a hover effect for a container that changes the color of the container based on the color of a text element within the container using CSS, you can use the following code:
+.container {
+    transition: background-color 0.3s;
+  }
+  
+  .container:hover {
+    background-color: var(--text-color);
+  }
+
+  ou will need to add the --text-color variable to the text element, like this:
+  .text-element {
+    --text-color: #ff0000;
+    color: var(--text-color);
+  } */
+
+  /* const container = document.querySelector('.container');
+const textElement = document.querySelector('.text-element');
+
+container.addEventListener('mouseover', () => {
+  container.style.backgroundColor = getComputedStyle(textElement).color;
+});
+
+container.addEventListener('mouseout', () => {
+  container.style.backgroundColor = '';
+}); */
