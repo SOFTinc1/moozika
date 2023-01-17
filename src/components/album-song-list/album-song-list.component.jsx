@@ -3,13 +3,11 @@ import {
   Card,
   Flex,
   AlbumImg,
-  Details,
   Title,
   Artist,
   Duration,
   FavIcon,
 } from "./album-song-list.styles";
-import Charts2 from "../../assets/images/charts2.png";
 import Charts3 from "../../assets/images/charts3.png";
 import LoveIcon from "../../assets/svg/Heart.svg";
 

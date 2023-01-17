@@ -5,8 +5,8 @@ import "./App.css";
 
 import Homepage from "./pages/homepage/homepage.component";
 import Footer from "./components/footer/footer.component";
-// import Album from "./pages/album/album.components";
-// import MusicList from "./pages/music-list/music-list.components";
+import Album from "./pages/album/album.components";
+import MusicList from "./pages/music-list/music-list.components";
 // import Test from "./components/test/banner.component";
 
 
