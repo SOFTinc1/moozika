@@ -47,6 +47,33 @@
 
 @media screen and (max-width: 830px) {
   .rhap_container{
+    height: 80px!important;
+  }
+  .rhap_repeat-button,
+  .rhap_volume-button,
+  .rhap_volume-bar,
+  .rhap_volume-indicator,
+  /* .rhap_progress-indicator, */
+  .rhap_current-time {
+    display: none;
+  }
+  .rhap_play-pause-button {
+    margin: 0 20px;
+  }
+  .rhap_skip-button {
+    margin: 0;
+  }
+  .rhap_progress-container {
+    margin: 10px 0 0 -180px !important;
+    width: 408px;
+  }
+  .rhap_main-controls {
+    margin: 0 0 0 -40px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .rhap_container{
     height: 80px!important
   }
   .rhap_repeat-button,
@@ -71,11 +98,4 @@
   .rhap_main-controls {
     margin: 0 0 0 -40px !important;
   }
-  /* .rhap_volume-button {
-    margin: 80px 0 0 -120px;
-  }
-  .rhap_volume-bar {
-    margin: 80px 0 0 10px;
-    width: 230px;
-  } */
 }
