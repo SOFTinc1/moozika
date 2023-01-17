@@ -1,0 +1,19 @@
+#closeondesktop {
+  display: none;
+}
+#openonmobile {
+  display: none;
+  /* background: #1d212379; */
+}
+
+@media screen and (max-width: 800px) {
+  #openonmobile {
+    display: block!important;
+  }
+  #closeondesktop {
+    display: block!important;
+  }
+  #closeonmobile {
+    display: none!important;
+  }
+}
