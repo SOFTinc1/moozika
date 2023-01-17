@@ -18,8 +18,8 @@ class App extends React.Component {
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Homepage />} />
-          {/* <Route exact path="/radio" element={<Album />} /> */}
-          {/* <Route exact path="/music-list" element={<MusicList />} /> */}
+          <Route exact path="/radio" element={<Album />} />
+          <Route exact path="/music-list" element={<MusicList />} />
           {/* <Route exact path="/" element={<Test />} /> */}
         </Routes>
         <Footer />
