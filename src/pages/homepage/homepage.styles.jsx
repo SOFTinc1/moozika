@@ -22,7 +22,7 @@ export const Basic = styled.div`
   }
 `;
 export const Flex = styled.div`
-  display: block;
+  display: flex;
   gap: 30px;
   padding: 0;
   width: 100% !important;

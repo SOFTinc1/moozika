@@ -14,7 +14,7 @@ const Homepage = () => (
       <HomeItems>
         <Flex>
           <Banner />
-          {/* <Charts /> */}
+          <Charts />
         </Flex>
         {/* <Test /> */}
         {/* <MusicListLibrary /> */}
